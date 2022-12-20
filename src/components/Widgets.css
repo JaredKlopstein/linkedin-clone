@@ -1,0 +1,37 @@
+.widgets {
+    position: sticky;
+    flex: 0.25;
+    top: 80px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.widgets__article > p {
+    padding-left: 24px;
+    font-size: 12px;
+}
+.widgets__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.widgets__header > h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.article__title {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.title__icon {
+    height: 8px;
+    
+}
